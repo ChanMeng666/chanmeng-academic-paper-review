@@ -32,10 +32,10 @@ structure/architecture figures — so a review can be as evidence-rich as the au
 ## Repository layout
 
 ```
-academic-paper-review-skill/
+chanmeng-academic-paper-review/
 ├── README.md                         ← you are here
 └── skills/
-    └── academic-paper-review/
+    └── chanmeng-academic-paper-review/
         ├── SKILL.md                  ← the skill (entry point)
         ├── references/
         │   ├── review-dimensions.md  ← both lenses' checklists + RAG/IR domain knowledge
@@ -58,23 +58,23 @@ Clone the repo, then make the inner skill folder discoverable to Claude Code, wh
 **personal skills** in `~/.claude/skills/<name>/`. A symlink is preferred so edits stay live.
 
 ```bash
-git clone https://github.com/ChanMeng666/academic-paper-review-skill.git
-cd academic-paper-review-skill
+git clone https://github.com/ChanMeng666/chanmeng-academic-paper-review.git
+cd chanmeng-academic-paper-review
 ```
 
 **macOS / Linux:**
 ```bash
-ln -s "$(pwd)/skills/academic-paper-review" ~/.claude/skills/academic-paper-review
+ln -s "$(pwd)/skills/chanmeng-academic-paper-review" ~/.claude/skills/chanmeng-academic-paper-review
 ```
 
 **Windows (PowerShell, run as Administrator for the symlink):**
 ```powershell
 New-Item -ItemType SymbolicLink `
-  -Path  "$env:USERPROFILE\.claude\skills\academic-paper-review" `
-  -Target "$(Resolve-Path .\skills\academic-paper-review)"
+  -Path  "$env:USERPROFILE\.claude\skills\chanmeng-academic-paper-review" `
+  -Target "$(Resolve-Path .\skills\chanmeng-academic-paper-review)"
 
 # …or just copy if you'd rather not symlink:
-Copy-Item -Recurse ".\skills\academic-paper-review" "$env:USERPROFILE\.claude\skills\academic-paper-review"
+Copy-Item -Recurse ".\skills\chanmeng-academic-paper-review" "$env:USERPROFILE\.claude\skills\chanmeng-academic-paper-review"
 ```
 
 To scope it to a single project instead, place (or link) the folder under that project's

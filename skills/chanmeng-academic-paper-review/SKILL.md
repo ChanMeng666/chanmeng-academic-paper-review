@@ -1,5 +1,5 @@
 ---
-name: academic-paper-review
+name: chanmeng-academic-paper-review
 description: >-
   Conduct a rigorous, two-lens peer review (editorial + technical-domain) of academic papers and
   produce a polished deliverable as Markdown, a Typst source, and/or a compiled PDF. Use this skill

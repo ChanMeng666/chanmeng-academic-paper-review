@@ -6,7 +6,7 @@ Thank you for your interest in contributing! This guide explains how to get invo
 
 ### Reporting Bugs
 
-If you find a bug, please [open an issue](https://github.com/ChanMeng666/academic-paper-review-skill/issues/new) with:
+If you find a bug, please [open an issue](https://github.com/ChanMeng666/chanmeng-academic-paper-review/issues/new) with:
 
 - Steps to reproduce the problem
 - Expected vs. actual behavior (screenshots or logs help)
@@ -14,14 +14,14 @@ If you find a bug, please [open an issue](https://github.com/ChanMeng666/academi
 
 ### Suggesting Features
 
-Have an idea? [Open a feature request](https://github.com/ChanMeng666/academic-paper-review-skill/issues/new) describing the problem you want to solve and your proposed solution.
+Have an idea? [Open a feature request](https://github.com/ChanMeng666/chanmeng-academic-paper-review/issues/new) describing the problem you want to solve and your proposed solution.
 
 ### Submitting Changes
 
 1. **Fork** the repository and **clone** your fork:
    ```bash
-   git clone https://github.com/<your-username>/academic-paper-review-skill.git
-   cd academic-paper-review-skill
+   git clone https://github.com/<your-username>/chanmeng-academic-paper-review.git
+   cd chanmeng-academic-paper-review
    ```
 2. **Create a branch** for your changes:
    ```bash
