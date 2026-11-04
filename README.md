@@ -54,6 +54,21 @@ chanmeng-academic-paper-review/
 
 ## Install
 
+### As a Claude Code plugin (recommended)
+
+```text
+/plugin install chanmeng-academic-paper-review --marketplace ChanMeng666/chanmeng-academic-paper-review
+```
+
+On Claude Code older than 2.1.275, add the marketplace first:
+
+```text
+/plugin marketplace add ChanMeng666/chanmeng-academic-paper-review
+/plugin install chanmeng-academic-paper-review@chanmeng-academic-paper-review
+```
+
+### Manual install
+
 Clone the repo, then make the inner skill folder discoverable to Claude Code, which looks for
 **personal skills** in `~/.claude/skills/<name>/`. A symlink is preferred so edits stay live.
 
