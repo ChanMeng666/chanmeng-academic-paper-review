@@ -1,0 +1,28 @@
+{
+  "name": "chanmeng-academic-paper-review",
+  "description": "Chan Meng's chanmeng-academic-paper-review plugin for Claude Code.",
+  "owner": {
+    "name": "Chan Meng",
+    "url": "https://github.com/ChanMeng666"
+  },
+  "plugins": [
+    {
+      "name": "chanmeng-academic-paper-review",
+      "source": "./",
+      "description": "A Claude Code skill for rigorous dual-lens (editorial + technical) peer review of academic papers — outputs polished reviewer letters or audit reports as Markdown, Typst, and PDF, with a reusable CeTZ chart library and Mermaid diagram templates.",
+      "category": "productivity",
+      "tags": [
+        "academic-writing",
+        "agent-skill",
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "data-visualization",
+        "information-retrieval",
+        "llm",
+        "mermaid"
+      ]
+    }
+  ]
+}
